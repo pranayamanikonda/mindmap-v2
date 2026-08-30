@@ -4,9 +4,11 @@ Chat-first mind-map agent: you give a topic, it drafts a map, researches alterna
 
 ## Try it (evaluators)
 
-Live app: *deploying — link added after Streamlit Cloud is up.*
+- **Code:** https://github.com/pranayamanikonda/mindmap-v2
+- **Live app:** Streamlit Community Cloud — after one GitHub sign-in, deploy `app.py` from `main` and add `GEMINI_API_KEY` in App settings → Secrets. Share the `*.streamlit.app` URL.
+- **Eval deck:** `docs/MindMap-V2-Eval.pptx` (also `docs/MindMap-V2-Eval.html` — arrows or print to PDF)
 
-Until then, run locally:
+Until the Cloud URL is live, run locally:
 
 ```bash
 python3 -m venv .venv
